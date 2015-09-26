@@ -1,0 +1,6 @@
+#!/bin/bash
+read -e -p "User name: " n 
+read -e -p "Email: " e
+
+git config --global user.name "$n"
+git config --global user.email $e

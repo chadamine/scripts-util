@@ -1,0 +1,4 @@
+#!/bin/bash
+read -e -p "Directory root to recursively add to PATH: " dir
+PATH=$PATH$( find $dir -type d -printf ":%p"  )
+

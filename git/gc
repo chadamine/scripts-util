@@ -1,0 +1,4 @@
+#!/bin/bash
+
+read -e -p "Enter message: " m
+git commit -a -m '$m'
