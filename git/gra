@@ -1,6 +1,5 @@
 #!/bin/bash
-read -p "Shortname: " sn
 read -p "Server: " sr
 read -p "Username: " d
 read -p "Repository: " re
-git remote add $sn https://$sr.com/$d/$re.git
+git remote add origin sn https://$sr.com/$d/$re.git
